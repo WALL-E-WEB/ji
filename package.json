@@ -1,0 +1,24 @@
+{
+  "name": "vitepage",
+  "version": "1.0.0",
+  "description": "vite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.7",
+    "vitepress-plugin-autobar": "^1.0.8"
+  },
+  "dependencies": {
+    "@limy-org/vite-plugin-vitepress-auto-sidebar": "^1.0.1",
+    "@vitepress-custom/vitepress-plugin-nav": "^0.0.7",
+    "tslib": "^2.6.1",
+    "vitepress-auto-nav-sidebar": "^0.0.5"
+  }
+}
